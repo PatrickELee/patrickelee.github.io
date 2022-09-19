@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patrick Lee</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-white.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <div class="container">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1 class="section-header">Hello! I'm Patrick Lee</h1>
+    </section>
+    <section id="about">
+        <h1 class="section-header">Who am I?</h1>
+        <div class="info">
+          <p class="about-body">
+            I am a current third year college student at UC Davis pursuing a bachelors in Computer 
+            Science. I strongly focus on self improvement and strive to be a better person than I 
+            was yesterday, whether that be learning about new technology or something outside of 
+            programming. I am eager for a chance to prove myself and am open to any software
+            engineering positions.
+          </p>
+          <p class="about-body">
+            Outside of programming, I am an avid photographer, snowboarder, and like to collect both
+            card and board games.
+          </p>
+        </div>
+    </section>
+    <section id="experience">
+        <h1 class="section-header">Experience</h1>
+        <div class="work-experience">
+          <div class="work-box"> 
+            <a href="https://www.coinbase.com/">
+              <img src ="assets/images/coinbase.png" alt="" class="coinbase-img">
+            </a> 
+            <div class="work-content">
+              <h2>Coinbase</h2>
+              <div class="work-subheader">Coinbase is one of the largest digital currency and 
+                exchange platforms in the world.</div>
+              <div class="w-more">
+                <div class="work-date">May 2022 - September 2022</div>
+                <div class="work-title">Software Engineer Intern - Infrastructure Security Team 
+                  (InfraSec)</div>
+                <div class="work-info">
+                  <ul class="work-list">
+                    <li class="work-list-item">
+                      <p>
+                        Planned, designed, and implemented communication infrastructure for 
+                        entire InfraSec team in any of their services to reach rest of company
+                        of 4000+ employees to help convey security alerts and or notifications.
+                      </p>
+                    </li>
+                    <li class="work-list-item">
+                      <p>
+                        Integrated communication infrastructure to use Slack and Jira API and 
+                        provide functionality to Coinbase services through use of AWS
+                        API Gateway, Lambda functions, and Protobuf to create a querying API.
+                      </p>
+                    </li>
+                    <li class="work-list-item">
+                      <p>
+                        Contributed to existing code bases involving gatekeeping package usage,
+                        which ingests thousands of packages daily to prevent security
+                        vulnerabilities using AWS resources and Golang.
+                      </p>
+                    </li>
+                    <li class="work-list-item">
+                      <p>
+                        Wrote operational scripts in Python to for any on-call individuals to 
+                        use to maintain service health and minimize possible security breaches
+                        as efficiently as possible.
+                      </p>
+                    </li>
+                    <li class="work-list-item">
+                      <p>
+                        Investiaged and documented several new services for the rest of team
+                        for onboarding to Coinbase's workflow, which will be used for future
+                        tooling.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section id="projects">
+      <h1 class="section-header">Projects</h1>
+      <div class="projects-contianer">
+        <div class="project">
+          <!-- TODO: Fix typo in image -->
+          <a href="https://github.com/PatrickELee/Concoct" target="_blank"> 
+            <img src="./assets/images/concoct.png" alt="">
+          </a><br>
+          <div class="project-title">Concoct</div>
+          <div class="'project-info">
+            <ul>
+              <li class="project-bullet">
+                <p>
+                  Concoct is a web app that uses computer vision and machine learning to help 
+                  minimize food waste and save on food costs in an easy to use format.
+                </p>
+              </li>
+              <li class="project-bullet">
+                <p>
+                  Flask app with React frontend that generates recipe recommendations based on
+                  user photos of their on hand ingredients, e.g. a refrigerator.
+                </p>
+              </li>
+              <li class="project-bullet">
+                <p>
+                  Uses Microsoft Azure CustomVision to identify ingredients and then forwards those
+                  results to the Spoonacular API to generate recipes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://github.com/PatrickELee/SimpleBot" target="_blank">
+            <img src="./assets/images/discord.png" alt="">
+          </a><br>
+          <div class="project-title">Simple Bot</div>
+          <div class="'project-info">
+            <ul>
+              <li class="project-bullet">
+                <p>
+                  Simple Bot is a automated bot written in Python for the chatting service Discord 
+                  for both personal use and use in school related servers.
+                </p>
+              </li>
+              <li class="project-bullet">
+                <p>
+                  Makes use of the Async IO library in order to handle asyncronous command
+                  executions and provide efficient, real time response to any command inputs.
+                </p>
+              </li>
+              <li class="project-bullet">
+                <p>
+                  Contains a PostgreSQL user database for logging info and tracking each ndividual
+                  user who interacts with the bot.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+    <section id="contact">
+        <h1 class="section-header">Contact</h1>
+        <ul class="contact-boxes">
+          <li>
+            <ion-icon class="icon" name="call-outline"></ion-icon><br>+1 (650) 722-6985
+          </li>
+          <li>
+            <ion-icon class="icon" name="mail-outline"></ion-icon><br>patrickelee650@gmail.com
+          </li>
+          <li>
+            <a href="https://github.com/PatrickELee">
+              <ion-icon class="icon" name="logo-github"></ion-icon><br>Github
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/patrick-ey-lee/">
+              <ion-icon class="icon" name="logo-linkedin"></ion-icon><br>LinkedIn
+            </a>
+          </li>
+        </ul>
+    </section>
+  </div>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</html>
