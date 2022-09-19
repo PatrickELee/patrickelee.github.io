@@ -71,6 +71,7 @@ section#projects {
 }
 
 section#contact {
+  scroll-snap-align: end;
   background: url('../images/5.jpg') no-repeat center center/cover;;
 }
 
@@ -222,4 +223,13 @@ a:hover, a:visited, a:link, a:active {
 
 .contact-boxes ion-icon {
   font-size: 5rem;
+}
+
+.copyright {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  scroll-snap-align: end;
+  background-color: black;
 }
