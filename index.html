@@ -22,15 +22,17 @@
         <h1 class="section-header">Who am I?</h1>
         <div class="info">
           <p class="about-body">
-            I am a current third year college student at UC Davis pursuing a bachelors in Computer 
-            Science. I strongly focus on self improvement and strive to be a better person than I 
-            was yesterday, whether that be learning about new technology or something outside of 
-            programming. I am eager for a chance to prove myself and am open to any software
-            engineering positions.
+            I am a senior at UC Davis pursuing a bachelors in Computer Science. I strongly 
+            focus on self improvement and strive to be a better person than I was yesterday, 
+            whether that be learning about new technology or something outside of programming.
+            I am eager for a chance to prove myself and am open to any software engineering
+            positions.
           </p>
           <p class="about-body">
-            Outside of programming, I am an avid photographer, snowboarder, and like to collect both
-            card and board games.
+            Outside of programming, I am an avid photographer, moviegoer and snowboarder.
+          </p>
+          <p class="about-body">
+            For an overview of my experience, you can view my resume <a id="about-resume-link" href="Patrick_Lee_Resume.pdf" target="_blank">here</a>
           </p>
         </div>
     </section>
@@ -38,44 +40,83 @@
         <h1 class="section-header">Experience</h1>
         <div class="work-experience">
           <div class="work-box"> 
+            <a href="https://www.mindbodyonline.com/">
+              <img src ="assets/images/mindbody.png" alt="" class="mindbody-img">
+            </a> 
+            <div class="work-content">
+              <h2>Mindbody</h2>
+              <div class="work-subheader">Mindbody is the largest cloud-based SaaS provider for
+                wellness services and fitness organization management.</div>
+              <div class="work-date">June 2023 - September 2023</div>
+              <div class="work-title">Software Engineer Intern - Developer Productivity </div>
+              <div class="work-info">
+                <ul class="work-list">
+                  <li class="work-list-item">
+                    <p>
+                      Decreased need for human responses to developer questions by 50% and
+                      launched microservice that outperformed built-in ADO search in 60% of
+                       test cases by creating AI responder using Python, ADO, AWS, and Pulumi IaC
+                    </p>
+                  </li>
+                  <li class="work-list-item">
+                    <p>
+                      Built vector database with FAISS able to store 1,000,000+ embeddings,
+                      hosted on a Flask webserver in an EKS Kubernetes pod using embedding
+                      models to perform text similarity search
+                    </p>
+                  </li>
+                  <li class="work-list-item">
+                    <p>
+                      Accelerated development by creating Azure CI/CD pipelines to automate dev,
+                      staging, and prod deployments
+                    </p>
+                  </li>
+                  <li class="work-list-item">
+                    <p>
+                      Achieved code reliability through 100% code coverage in testing with
+                      pytest and NewRelic monitoring and logging
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work-box"> 
             <a href="https://www.coinbase.com/">
               <img src ="assets/images/coinbase.png" alt="" class="coinbase-img">
             </a> 
             <div class="work-content">
               <h2>Coinbase</h2>
               <div class="work-subheader">Coinbase is one of the largest digital currency and 
-                exchange platforms in the world.</div>
+                exchange platforms in the entire world.</div>
               <div class="work-date">May 2022 - September 2022</div>
-              <div class="work-title">Software Engineer Intern - Infrastructure Security Team 
+              <div class="work-title">Software Engineer Intern - Infrastructure Security 
                 (InfraSec)</div>
               <div class="work-info">
                 <ul class="work-list">
                   <li class="work-list-item">
                     <p>
-                      Planned, designed, and implemented communication infrastructure for 
-                      entire InfraSec team in any of their services to reach rest of company
-                      of 4000+ employees to help convey security alerts and or notifications.
+                      Implemented REST API and Lambda to handle communication channels (e.g.
+                      Slack, Jira, Github, etc.) for company of 4000+ employees with AWS, Golang,
+                      and Google Protobuf
                     </p>
                   </li>
                   <li class="work-list-item">
                     <p>
-                      Integrated communication infrastructure with Slack and Jira API to 
-                      provide functionality to Coinbase services through use of AWS
-                      API Gateway, Lambda functions, and Protobuf to create a querying API.
+                      Reduced stale package security checks by 95%, increasing vulnerable package
+                      detection by writing Python scripts for Kinesis data streams and DynamoDB 
+                      partitions
                     </p>
                   </li>
                   <li class="work-list-item">
                     <p>
-                      Contributed to existing codebases involving gatekeeping package usage,
-                      which ingests thousands of packages daily to prevent security
-                      vulnerabilities using AWS resources and Golang.
+                      Documented new tools like Retool pages that support CRUD operations with GraphQL
+                      to reduce internal page’s development time by 90%, from days to hours
                     </p>
                   </li>
                   <li class="work-list-item">
                     <p>
-                      Wrote operational scripts in Python for any on-call individuals to 
-                      maintain service health and minimize possible security breaches as efficient
-                      as possible.
+                      Minimized operational toil by automating builds with tools like Bazel and Buildkite
                     </p>
                   </li>
                 </ul>

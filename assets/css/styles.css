@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'Libre Baskerville';
-  src: url('../fonts/LibreBaskerville-Regular.ttf');
+  font-family: 'Hind';
+  src: url('../fonts/Hind-Regular.ttf');
 }
 
 .container {
@@ -25,7 +25,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Libre Baskerville';
+  font-family: 'Hind';
 }
 
 body {
@@ -34,7 +34,7 @@ body {
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
-  font-family: Georgia, 'Times New Roman', Times;
+  font-family: Georgia, 'Hind', Times;
 }
 
 section {
@@ -85,6 +85,7 @@ section#contact {
   height: 100%;
   background: rgba(0,0,0,0.7);  
   font-size: 1rem;
+  text-align: center;
 }
 
 .navbar ul {
@@ -102,6 +103,8 @@ section#contact {
   text-decoration: none;
   text-transform: uppercase;
   color: #f4f4f4;
+  font-family: 'Julius Sans One';
+  font-weight: bolder;
 }
 
 .navbar ul li a:hover {
@@ -123,12 +126,30 @@ a:hover, a:visited, a:link, a:active {
   padding: 2rem;
 }
 
-.work-experience {
+#about-resume-link {
+  color: cadetblue;
+}
+
+.work-box {
+  padding: 2rem;
+  margin: 2rem;
+  width: 30%;
   background-color: rgba(0,0,0,0.5);
   color: white;
   border-radius: 25px;
-  padding: 3rem;
-  width: 60rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.work-box img {
+  width: 20em;
+  height: 10em;
+  border-radius: 25px;
+}
+
+.work-experience {
+  overflow: hidden;
+  text-align: center;
 }
 
 .work-content h2 {
